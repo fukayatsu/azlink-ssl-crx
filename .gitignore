@@ -3,4 +3,5 @@
 *.sublime-*
 *.pem
 *.crx
+*.zip
 package/

@@ -1,17 +1,10 @@
 {
-  "name": "Aslink ssl",
-  "version": "0.0.1",
+  "name": "Azlink ssl",
+  "version": "0.0.2",
   "manifest_version": 2,
   "description": "replace generated link to ssl version on azlink",
-  // "icons": { "48": "icon/icon_048.png",
-          // "128": "icon/icon_128.png" },
-  // "background": {
-    // "page": "background.html"
-  // },
   "content_scripts": [{
     "matches": ["http://sakuratan.biz/azlink/lookup/*"],
     "js": ["jquery-1.8.3.min.js", "content_script.js"]
   }]
-  // ,
-  // "permissions": ["contextMenus", "tabs"]
 }
